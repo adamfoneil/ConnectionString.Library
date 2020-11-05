@@ -8,6 +8,10 @@ Assert.IsTrue(redacted.Equals("Server=whatever;Database=thisdb;User Id=&lt;redac
 
 var server = ConnectionString.Server("Server=(localdb)\\mssqllocaldb;Database=AnotherDb;Integrated Security=true");
 Assert.IsTrue(server.Equals("(localdb)\\mssqllocaldb"));
+
+var database = ConnectionString.Database("Server=(localdb)\\mssqllocaldb;Database=AnotherDb;Integrated Security=true");
+Assert.IsTrue(database.Equals("AnotherDb"));
+
 ```
 # AO.ConnectionStrings.ConnectionString [ConnectionString.cs](https://github.com/adamfoneil/ConnectionString.Library/blob/master/ConnectionString.Library/ConnectionString.cs#L7)
 ## Methods
