@@ -8,6 +8,16 @@
     <Authors>Adam O'Neil</Authors>
     <Product>AO.ConnectionStrings</Product>
     <Description>A small library for parsing connection strings and redacting sensitive token values.</Description>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <RepositoryUrl>https://github.com/adamfoneil/ConnectionString.Library</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/adamfoneil/ConnectionString.Library</PackageProjectUrl>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
