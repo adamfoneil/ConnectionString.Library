@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>AO.ConnectionStrings</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>AO.ConnectionStrings</PackageId>
+    <Authors>Adam O'Neil</Authors>
+    <Product>AO.ConnectionStrings</Product>
+    <Description>A small library for parsing connection strings and redacting sensitive token values.</Description>
+  </PropertyGroup>
+
+</Project>
